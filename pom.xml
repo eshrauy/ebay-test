@@ -1,0 +1,115 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  	<groupId>automationExam</groupId>
+  	<artifactId>ebay-test</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<packaging>jar</packaging>
+
+  	<name>ebay-test</name>
+  	<url>http://maven.apache.org</url>
+
+  	<properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   		<!-- ReportNG -->
+		<reportng.version>1.1.4</reportng.version>
+		<!--TestNG-->
+		<testng.version>6.11</testng.version>
+		<!-- Selenium Components -->
+		<selenium.version>3.141.59</selenium.version>
+		<selenium-server.version>3.141.59</selenium-server.version>
+		<!-- Javax Mail -->
+		<javax.version>1.5.0-b01</javax.version>
+		<!-- Maven -->
+		<maven.compile.encoding>UTF-8</maven.compile.encoding>
+		<maven.test.compile.encoding>UTF-8</maven.test.compile.encoding>
+		<maven.enforcer.plugin.version>1.4.1</maven.enforcer.plugin.version>
+		<maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
+		<maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
+    </properties>
+
+	<!-- Independent java compilation - - - - - - -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin.version}</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>${maven.enforcer.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>enforce-java</id>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<requireJavaVersion>
+									<version>1.8</version>
+								</requireJavaVersion>
+							</rules>
+						</configuration>
+					</execution>
+					<execution>
+						<id>enforce-properties</id>
+						<phase>none</phase>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	
+	<dependencies>  
+    <!-- TestNG-->
+	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>${testng.version}</version>
+  		<scope>compile</scope>
+	</dependency>
+
+	<!-- Selenium Components -->
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>${selenium.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-remote-driver</artifactId>
+		<version>${selenium.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-server</artifactId>
+		<version>${selenium-server.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-support</artifactId>
+		<version>${selenium.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-chrome-driver</artifactId>
+		<version>${selenium.version}</version>
+	</dependency>	
+	<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>${javax.version}</version>
+	</dependency>	
+ </dependencies>
+</project>
