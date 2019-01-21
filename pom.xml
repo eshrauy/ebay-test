@@ -16,7 +16,6 @@
 		<reportng.version>1.1.4</reportng.version>
 		<!--TestNG-->
 		<testng.version>6.11</testng.version>
-		<suiteXmlFiles>testng.xml</suiteXmlFiles>
 		<!-- Selenium Components -->
 		<selenium.version>3.141.59</selenium.version>
 		<selenium-server.version>3.141.59</selenium-server.version>
@@ -73,7 +72,7 @@
   				<artifactId>maven-surefire-plugin</artifactId>
   				<version>${maven.surefire.plugin.version}</version>
   				<configuration>
-					<suiteXmlFiles>$(suiteXmlFile)</suiteXmlFiles>
+					<suiteXmlFiles>testng.xml</suiteXmlFiles>
   				</configuration>
 			</plugin>
 		</plugins>

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Number of results obtained: 88,327]]>
+    </line>
+    <line>
+      <![CDATA[
+****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[          Results obtained - Order: ASC by total price]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.14]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 432.34]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.84]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 520.91]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+    </line>
+    <line>
+      <![CDATA[Price: 455.07]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 250.94]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 206.24]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 506.1]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 647.8]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 80.97]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[
+****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[          Results obtained - Order: ASC by name]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.14]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 432.34]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.84]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 520.91]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 206.24]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 506.1]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 647.8]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 80.97]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+    </line>
+    <line>
+      <![CDATA[Price: 455.07]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 250.94]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[
+****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[          Results obtained - Order: DSC by total price]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 647.8]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 80.97]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 206.24]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 506.1]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+    </line>
+    <line>
+      <![CDATA[Price: 455.07]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 250.94]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.84]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 520.91]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+    </line>
+    <line>
+      <![CDATA[Price: 176.14]]>
+    </line>
+    <line>
+      <![CDATA[Shipping: 432.34]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default" duration-ms="27207" started-at="2019-01-21T23:26:55Z" finished-at="2019-01-21T23:27:22Z">
+    <groups>
+    </groups>
+    <test name="pumaShoesFiltering" duration-ms="27207" started-at="2019-01-21T23:26:55Z" finished-at="2019-01-21T23:27:22Z">
+      <class name="automationExam.tests.EbayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="setUp" is-config="true" duration-ms="3781" started-at="2019-01-21T20:26:55Z" finished-at="2019-01-21T20:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pumaShoesFiltering()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="pumaShoesFiltering" duration-ms="18968" started-at="2019-01-21T20:26:59Z" finished-at="2019-01-21T20:27:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of results obtained: 88,327]]>
+            </line>
+            <line>
+              <![CDATA[
+****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[          Results obtained - Order: ASC by total price]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.14]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 432.34]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.84]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 520.91]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+            </line>
+            <line>
+              <![CDATA[Price: 455.07]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 250.94]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 206.24]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 506.1]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 647.8]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 80.97]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[
+****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[          Results obtained - Order: ASC by name]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.14]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 432.34]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.84]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 520.91]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 206.24]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 506.1]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 647.8]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 80.97]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+            </line>
+            <line>
+              <![CDATA[Price: 455.07]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 250.94]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[
+****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[          Results obtained - Order: DSC by total price]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 647.8]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 80.97]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 206.24]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 506.1]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White]]>
+            </line>
+            <line>
+              <![CDATA[Price: 455.07]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 250.94]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.84]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 520.91]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83]]>
+            </line>
+            <line>
+              <![CDATA[Price: 176.14]]>
+            </line>
+            <line>
+              <![CDATA[Shipping: 432.34]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pumaShoesFiltering -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="closeBrowser" is-config="true" duration-ms="4444" started-at="2019-01-21T20:27:18Z" finished-at="2019-01-21T20:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automationExam.tests.EbayTest -->
+    </test> <!-- pumaShoesFiltering -->
+  </suite> <!-- Default -->
+</testng-results>
