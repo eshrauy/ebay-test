@@ -16,6 +16,7 @@
 		<reportng.version>1.1.4</reportng.version>
 		<!--TestNG-->
 		<testng.version>6.11</testng.version>
+		<suiteXmlFiles>testng.xml</suiteXmlFiles>
 		<!-- Selenium Components -->
 		<selenium.version>3.141.59</selenium.version>
 		<selenium-server.version>3.141.59</selenium-server.version>
@@ -26,7 +27,7 @@
 		<maven.test.compile.encoding>UTF-8</maven.test.compile.encoding>
 		<maven.enforcer.plugin.version>1.4.1</maven.enforcer.plugin.version>
 		<maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
-		<maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
+		<maven.surefire.plugin.version>3.0.0-M3</maven.surefire.plugin.version>
     </properties>
 
 	<!-- Independent java compilation - - - - - - -->
@@ -66,6 +67,14 @@
 						<phase>none</phase>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+  				<artifactId>maven-surefire-plugin</artifactId>
+  				<version>${maven.surefire.plugin.version}</version>
+  				<configuration>
+					<suiteXmlFiles>$(suiteXmlFile)</suiteXmlFiles>
+  				</configuration>
 			</plugin>
 		</plugins>
 	</build>

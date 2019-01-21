@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default]">
+  <test name="pumaShoesFiltering(failed)">
+    <classes>
+      <class name="automationExam.tests.EbayTest">
+        <methods>
+          <include name="pumaShoesFiltering"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- automationExam.tests.EbayTest -->
+    </classes>
+  </test> <!-- pumaShoesFiltering(failed) -->
+</suite> <!-- Failed suite [Default] -->

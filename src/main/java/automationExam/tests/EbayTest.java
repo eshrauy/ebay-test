@@ -1,11 +1,13 @@
 package automationExam.tests;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.Reporter;
 import org.testng.annotations.*;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import automationExam.utils.EbayResultObject;
@@ -24,16 +26,32 @@ public class EbayTest
 	private String baseUrl;
 
 	@BeforeTest
-	public void setUp() throws Exception {
-		driver = new FirefoxDriver();
-		baseUrl = "https://www.ebay.com/";
+	public void setUp(){
+		try {
+			/*
+			 * Consideration: We will be running the test using only Firefox browser
+			 * over linux and windows environments
+			 */
+			if (System.getProperty("os.name").contains("Linux")) {
+				System.setProperty("webdriver.gecko.driver", "./lib/linux/geckodriver");
+			}
+			else {
+				System.setProperty("webdriver.gecko.driver", "./lib/windows/geckodriver.exe");
+			}
+			
+			driver = new FirefoxDriver();
+			baseUrl = "https://www.ebay.com/";
 		
-		// Maximize the browser's window
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			// Maximize the browser's window
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		}
+		catch(Exception e) {
+			System.out.println("Exception: " + e.getMessage());
+		}
 	}
 	
-	@Test
+	@Test 
 	public void pumaShoesFiltering() {
 		driver.get(baseUrl);
 		EbaySiteTop ebaySearch = new EbaySiteTop(driver);

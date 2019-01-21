@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  TestNG Test Group</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG Test Group</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 21 09:55:55 UYT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28392 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automationExam.tests.EbayTest.pumaShoesFiltering()'><b>pumaShoesFiltering</b><br>Test class: automationExam.tests.EbayTest<br/>
+<a href="#Output-949684105" onClick='toggleBox("Output-949684105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-949684105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-949684105">
+Number of results obtained: 87,942<br/>
+
+****************************************************************<br/>
+          Results obtained - Order: ASC by total price<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.14<br/>
+Shipping: 432.34<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.84<br/>
+Shipping: 520.91<br/>
+****************************************************************<br/>
+Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White<br/>
+Price: 455.07<br/>
+Shipping: 250.94<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 206.24<br/>
+Shipping: 506.1<br/>
+****************************************************************<br/>
+Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83<br/>
+Price: 647.8<br/>
+Shipping: 80.97<br/>
+****************************************************************<br/>
+
+<br/>
+
+****************************************************************<br/>
+          Results obtained - Order: ASC by name<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.14<br/>
+Shipping: 432.34<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.84<br/>
+Shipping: 520.91<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 206.24<br/>
+Shipping: 506.1<br/>
+****************************************************************<br/>
+Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83<br/>
+Price: 647.8<br/>
+Shipping: 80.97<br/>
+****************************************************************<br/>
+Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White<br/>
+Price: 455.07<br/>
+Shipping: 250.94<br/>
+****************************************************************<br/>
+
+<br/>
+
+****************************************************************<br/>
+          Results obtained - Order: DSC by total price<br/>
+****************************************************************<br/>
+Name: Puma Aqua-Katze Li Herren Slider Schieber Rot Weiß Zehentrenner 102322 04 U83<br/>
+Price: 647.8<br/>
+Shipping: 80.97<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 206.24<br/>
+Shipping: 506.1<br/>
+****************************************************************<br/>
+Name: Puma Purecat Slide Sandals Flip Flops Sports Adults Unisex Beach Navy White<br/>
+Price: 455.07<br/>
+Shipping: 250.94<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.84<br/>
+Shipping: 520.91<br/>
+****************************************************************<br/>
+Name: Puma Aqua Cat II Mens Slider Sliders Red White Flip Flops 102322 04 U83<br/>
+Price: 176.14<br/>
+Shipping: 432.34<br/>
+****************************************************************<br/>
+
+<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>automationExam.tests.EbayTest@cc285f4</td></tr>
+</table><p>
+</body>
+</html>

@@ -19,12 +19,12 @@ public class EbaySiteBottom {
 	private String xpathShoes = "//div[@class='pagecontainer__leftnav b-sidenav']//a[text()='Shoes']";
     private String xpathMensShoes = "//div[@class='pagecontainer__leftnav b-sidenav']//a[contains(text(),'Men')]";
 	private String xpathBrandFilter = "//input[@class='x-searchable-list__textbox__aspect-Brand']";
-    private String xpathBrandPumaChk = "//span[contains(text(),'PUMA')]";
+    private String xpathBrandPumaChk = "//input[@aria-label='PUMA']";
 	private String xpathNewWithBoxChk = "//input[@aria-label='New with box']";
 	private String xpathResultsFilter = "//div[@class='srp-controls--selected-value']";
 	private String xpathResultNumber = "//h2[@class='srp-controls__count-heading']";
-	//private String xpathLowestPriceFirst = "//span[text()='Price + Shipping: lowest first']";
-	private String xpathLowestPriceFirst = "//span[text()='Lowest Price + Shipping']";
+	private String xpathLowestPriceFirst = "//span[text()='Price + Shipping: lowest first']";
+	//private String xpathLowestPriceFirst = "//span[text()='Lowest Price + Shipping']";
 	private String xpathResultName = "//li[@id='w5-items[0]']//h3[@class='s-item__title']";
 	private String xpathResultPrice = "//li[@id='w5-items[0]']//span[@class='s-item__price']";
 	private String xpathResultShipping = "//li[@id='w5-items[0]']//span[@class='s-item__shipping s-item__logisticsCost']";
