@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -24,21 +26,11 @@ public class EbayTest
 {
 	private WebDriver driver;
 	private String baseUrl;
+	
 
 	@BeforeTest
 	public void setUp(){
-		try {
-			/*
-			 * Consideration: We will be running the test using only Firefox browser
-			 * over linux and windows environments
-			 */
-			if (System.getProperty("os.name").contains("Linux")) {
-				System.setProperty("webdriver.gecko.driver", "./lib/linux/geckodriver");
-			}
-			else {
-				System.setProperty("webdriver.gecko.driver", "./lib/windows/geckodriver.exe");
-			}
-			
+		try {		
 			driver = new FirefoxDriver();
 			baseUrl = "https://www.ebay.com/";
 		

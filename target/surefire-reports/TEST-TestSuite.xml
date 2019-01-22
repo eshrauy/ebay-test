@@ -1,62 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.132" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.98" tests="2" errors="0" skipped="0" failures="2">
   <properties>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="EbayTest"/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/lib/jvm/java-8-oracle/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/share/rvm/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5ba1cd78dd09762c"/>
+    <property name="POM_ARTIFACTID" value="ebay-test"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="XDG_DATA_DIRS" value="/usr/local/share:/usr/share:/var/lib/snapd/desktop"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="ebay-test"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/usr/1001"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="UBUNTU_MENUPROXY" value="1"/>
+    <property name="rvm_version" value="1.29.7 (manual)"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="es"/>
+    <property name="JOB_BASE_NAME" value="EbayTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/EbayTest/21/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#21"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="rvm_prefix" value="/usr/share"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.timezone" value="America/Montevideo"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="21"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/test-classes:/home/rodrigo/Proyectos/ebay-test/target/classes:/home/rodrigo/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/rodrigo/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/rodrigo/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/rodrigo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/rodrigo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/rodrigo/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/rodrigo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/rodrigo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/rodrigo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/rodrigo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/rodrigo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/rodrigo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/rodrigo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/rodrigo/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/rodrigo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/rodrigo/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/home/rodrigo/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value=""/>
-    <property name="suiteXmlFile" value="$workspace/testng.xml"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Linux"/>
-    <property name="user.country" value="UY"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter4757493754180724299.jar /home/rodrigo/Proyectos/ebay-test/target/surefire 2019-01-21T21-02-16_290-jvmRun1 surefire6694898657728530278tmp surefire_05979558604342762229tmp"/>
-    <property name="surefire.test.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/test-classes:/home/rodrigo/Proyectos/ebay-test/target/classes:/home/rodrigo/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/rodrigo/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/rodrigo/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/rodrigo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/rodrigo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/rodrigo/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/rodrigo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/rodrigo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/rodrigo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/rodrigo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/rodrigo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/rodrigo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/rodrigo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/rodrigo/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/rodrigo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/rodrigo/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/home/rodrigo/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/rodrigo"/>
-    <property name="user.language" value="es"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="basedir" value="/home/rodrigo/Proyectos/ebay-test"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
     <property name="file.separator" value="/"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter4757493754180724299.jar"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
-    <property name="user.name" value="rodrigo"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.15.0-43-generic"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/rodrigo/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="user.dir" value="/home/rodrigo/Proyectos/ebay-test"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.201-b09"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.conf" value="/etc/maven"/>
+    <property name="J2SDKDIR" value="/usr/lib/jvm/java-8-oracle"/>
+    <property name="DERBY_HOME" value="/usr/lib/jvm/java-8-oracle/db"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="UY"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="4.15.0-43-generic"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/EbayTest/21/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="JOB_DISPLAY_URL" value="http://127.0.0.1:8080/job/EbayTest/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/daemon"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-8-oracle"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="automationExam"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-EbayTest-21"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5ba1cd78dd09762c"/>
+    <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/123/bus"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="c2"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="18.04"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/usr/share/maven/boot/plexus-classworlds-2.x.jar:/usr/share/maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /usr/share/maven /var/cache/jenkins/war/WEB-INF/lib/remoting-3.27.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 34615"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/lib/jvm/java-8-oracle/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/share/maven"/>
+    <property name="MAIL" value="/var/mail/jenkins"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/share/maven/bin"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/EbayTest/21/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="rvm_path" value="/usr/share/rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="rvm_bin_path" value="/usr/share/rvm/bin"/>
+    <property name="_system_type" value="Linux"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/rodrigo/Proyectos/ebay-test"/>
+    <property name="JOB_URL" value="http://127.0.0.1:8080/job/EbayTest/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/usr/share/maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="21"/>
+    <property name="JENKINS_URL" value="http://127.0.0.1:8080/"/>
+    <property name="PATH+CHROMEDRIVER" value="/var/lib/jenkins/tools/chromedriver"/>
+    <property name="_system_name" value="Ubuntu"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="es_UY.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/EbayTest"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="GTK_MODULES" value="appmenu-gtk-module"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="LANGUAGE" value="es_UY:es"/>
+    <property name="USER" value="jenkins"/>
   </properties>
-  <testcase name="pumaShoesFiltering" classname="automationExam.tests.EbayTest" time="17.913"/>
+  <testcase name="pumaShoesFiltering" classname="automationExam.tests.EbayTest" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at automationExam.tests.EbayTest.pumaShoesFiltering(EbayTest.java:69)
+</failure>
+    <system-out><![CDATA[Exception: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 172 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'rodrigo-Satellite-P875', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-43-generic', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb) on port 5528
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="closeBrowser" classname="automationExam.tests.EbayTest" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at automationExam.tests.EbayTest.closeBrowser(EbayTest.java:103)
+</failure>
+  </testcase>
 </testsuite>

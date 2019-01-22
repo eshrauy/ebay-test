@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.132 s - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.98 sec <<< FAILURE! - in TestSuite
+pumaShoesFiltering(automationExam.tests.EbayTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automationExam.tests.EbayTest.pumaShoesFiltering(EbayTest.java:69)
+
+closeBrowser(automationExam.tests.EbayTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automationExam.tests.EbayTest.closeBrowser(EbayTest.java:103)
+
