@@ -72,7 +72,7 @@
   				<artifactId>maven-surefire-plugin</artifactId>
   				<version>${maven.surefire.plugin.version}</version>
   				<configuration>
-					<suiteXmlFiles>testng.xml</suiteXmlFiles>
+					<suiteXmlFiles>./testng.xml</suiteXmlFiles>
   				</configuration>
 			</plugin>
 		</plugins>

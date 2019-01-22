@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Number of results obtained: 88,327]]>
+      <![CDATA[Number of results obtained: 88,843]]>
     </line>
     <line>
       <![CDATA[
@@ -227,19 +227,19 @@
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default" duration-ms="27207" started-at="2019-01-21T23:26:55Z" finished-at="2019-01-21T23:27:22Z">
+  <suite name="Default" duration-ms="25923" started-at="2019-01-22T00:02:17Z" finished-at="2019-01-22T00:02:42Z">
     <groups>
     </groups>
-    <test name="pumaShoesFiltering" duration-ms="27207" started-at="2019-01-21T23:26:55Z" finished-at="2019-01-21T23:27:22Z">
+    <test name="pumaShoesFiltering" duration-ms="25923" started-at="2019-01-22T00:02:17Z" finished-at="2019-01-22T00:02:42Z">
       <class name="automationExam.tests.EbayTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="setUp" is-config="true" duration-ms="3781" started-at="2019-01-21T20:26:55Z" finished-at="2019-01-21T20:26:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationExam.tests.EbayTest@3498ed]" name="setUp" is-config="true" duration-ms="4006" started-at="2019-01-21T21:02:17Z" finished-at="2019-01-21T21:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pumaShoesFiltering()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="pumaShoesFiltering" duration-ms="18968" started-at="2019-01-21T20:26:59Z" finished-at="2019-01-21T20:27:18Z">
+        <test-method status="PASS" signature="pumaShoesFiltering()[pri:0, instance:automationExam.tests.EbayTest@3498ed]" name="pumaShoesFiltering" duration-ms="17912" started-at="2019-01-21T21:02:21Z" finished-at="2019-01-21T21:02:38Z">
           <reporter-output>
             <line>
-              <![CDATA[Number of results obtained: 88,327]]>
+              <![CDATA[Number of results obtained: 88,843]]>
             </line>
             <line>
               <![CDATA[
@@ -465,7 +465,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- pumaShoesFiltering -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationExam.tests.EbayTest@4411d970]" name="closeBrowser" is-config="true" duration-ms="4444" started-at="2019-01-21T20:27:18Z" finished-at="2019-01-21T20:27:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationExam.tests.EbayTest@3498ed]" name="closeBrowser" is-config="true" duration-ms="3996" started-at="2019-01-21T21:02:38Z" finished-at="2019-01-21T21:02:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

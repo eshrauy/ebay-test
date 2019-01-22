@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.419" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.132" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -11,12 +11,13 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
+    <property name="suiteXmlFile" value="$workspace/testng.xml"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Linux"/>
     <property name="user.country" value="UY"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter7422554234866666461.jar /home/rodrigo/Proyectos/ebay-test/target/surefire 2019-01-21T20-26-54_851-jvmRun1 surefire5809956808956476635tmp surefire_01040330160061524310tmp"/>
+    <property name="sun.java.command" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter4757493754180724299.jar /home/rodrigo/Proyectos/ebay-test/target/surefire 2019-01-21T21-02-16_290-jvmRun1 surefire6694898657728530278tmp surefire_05979558604342762229tmp"/>
     <property name="surefire.test.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/test-classes:/home/rodrigo/Proyectos/ebay-test/target/classes:/home/rodrigo/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/rodrigo/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/rodrigo/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/rodrigo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/rodrigo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/rodrigo/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/rodrigo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/rodrigo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/rodrigo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/rodrigo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/rodrigo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/rodrigo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/rodrigo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/rodrigo/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/rodrigo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/rodrigo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/rodrigo/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/home/rodrigo/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/rodrigo"/>
@@ -29,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter7422554234866666461.jar"/>
+    <property name="surefire.real.class.path" value="/home/rodrigo/Proyectos/ebay-test/target/surefire/surefirebooter4757493754180724299.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
@@ -57,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="pumaShoesFiltering" classname="automationExam.tests.EbayTest" time="18.969"/>
+  <testcase name="pumaShoesFiltering" classname="automationExam.tests.EbayTest" time="17.913"/>
 </testsuite>
